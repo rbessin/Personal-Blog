@@ -6,6 +6,8 @@ tags:
   - general
 ---
 
+## Headings
+
 # Heading 1
 
 ## Heading 2
@@ -17,6 +19,8 @@ tags:
 ##### Heading 5
 
 ###### Heading 6
+
+## Text
 
 This is an example of **bold text**
 
@@ -51,7 +55,6 @@ As long as the first is a 1
 9. Second item
 1. Third item
 9. Fourth item
-
 
 ## Unordered lists
 
