@@ -25,9 +25,6 @@ I then delve into the actual review where I explore my thoughts and opinions abo
 - Pacing: Consider the movie's pacing. Did it keep you engaged throughout, or did it drag at certain points? How could it have been better?
 - Originality: Evaluate the movie's originality and whether it brought something new to the table. What made it different? How was this difference directed?
 
-### Strengths and Weaknesses
-I then highlight what I think were the movie's core strengths and weaknesses and support these opinions with examples from the film.
-
 ### Conclusion
 I Wrap up the review by summarizing my overall thoughts on the movie. I then add any final comments I have or feelings such as for a sequel, a character I've appreciated, etc.
 
