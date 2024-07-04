@@ -26,3 +26,9 @@ export const getPostContent = (slug) => {
   const content = fs.readFileSync(file, 'utf8')
   return matter(content)
 }
+
+export const getPostTags = () => {
+  const posts = getListOfPosts()
+  const tags = posts.flatMap(post => post.tags)
+  return [...new Set(tags)]
+}
