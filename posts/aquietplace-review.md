@@ -1,13 +1,14 @@
 ---
-title: Opinionated Review - A Quiet Place - Day One
+title: Opinionated Review - A Quiet Place
 subtitle: An opinionated review of the popular tv series Severance.
 date: 2024-07-01T11:00:00Z
+update: 2024-07-08
 tags: 
   - review
   - movie
 ---
 
-### Introduction
+### The Prequel - Day One
 Simple words. Simple ideas. Simple objectives. A Quiet Place: Day One, an original thriller, recounts the first instances of a devastating alien attack on the world which forces New York City into silence. This gripping twist makes for an odd but interesting movie, with only a few words of dialogue, constant fast paced suspense, and a small and easily scared but likeable cat, named Frodo.
 
 ### Summary [(Wikipedia)](https://en.wikipedia.org/wiki/A_Quiet_Place:_Day_One)
@@ -33,5 +34,8 @@ However, I've had one issue with a scene related to this concept of silence. At 
 ### Staying in the present
 Another aspect I believe this movie presents well is the relativity of happiness and the strive for purpose. The first scenes of the movie depict a character already nearing her death. Despite this, Samira manages to find purpose and happiness in a deteriorating world. Although seemingly funny, her purpose which consists of reaching Patsy's to get pizza, is one chosen by her. It demands a lot of self-reflection and shows her close relationship with her father, a character which seemingly represents a lot to her. On the other hand, she could've simply given up, feeling like the universe didn't want her to live, after she was diagnosed with cancer and after the alien attack took place. Not only does she manage to find purpose but while doing this she gives hope to others such as Eric, who she finds lost and alone. At the end, she offers him her cat, an act of charity, and a future, by putting her life at risk. These two characters present the idea that one should always strive to find happiness or purpose no matter the situation, by staying in the present and looking for what you have and not what you don't have. She shows proof of this understanding and acceptance in the last scene, where she strives for happiness although it means her life has to end.
 
-### Conclusion
+### Overall Perspective of the Prequel
 Overall I think this movie deserves 7 stars. It has a truly original plot which is hard to develop with little dialogue. It has really strong visuals and amazing sound effects and music which keep the viewer on the edge of his/her seat. But it has some confusing scenes. It lacks in depth, by scraping the surface of why the creatures are there. It even goes as far as to confuse the viewer even more with scenes such as the one where the creatures eat the egg. Where does the egg comes from? Is it one of them? If so, why are they eating it? *...* And most importantly it lacks in true structure. While I do think the search for pizza, the escape from the city, and the chaos shape an interesting and original plot, it lacks in true purpose and is fairly weak in terms of attracting attention. However I do have to note, that this is the first movie in the current trilogy I've seen, meaning some of my questions might be answered later on. But I have heard other issues, presenting the lack of connection between the prequel and the other movies. We'll see...
+
+### Thoughts on Followup Movies
+After having seen the prequel in theaters, I thought it would be fitting to see the two original movies, hoping to have some of my questions answered. This is going to be a quick overview of my thoughts on both movies, without presenting too much of the plot and with limited detail. Feel free to contact me if you wish to talk about these further... Lets start with the first movie which I absolutely loved. I thought it accomplished its purpose perfectly by presenting the sequence of events right after the disaster. By following one closely knit family, the movie perfectly presents all relevant themes. It delves into grief, by presenting the loss of a young boy, quickly shown at the start with limited understanding of the world which surrounds him. He represents innocence in a devastated world. Throughout the movie, action is thoughtfully played out to show the characters personalities and relationships. The father is presented as caring, ready to sacrifice his life as he does for his kids at the end, I shocking turn of events, which makes sense, and presents a strong and powerful story. The mother, representing the future of humanity and the only hope of survival, is the one who takes over the family when the father dies, is the one who gives birth to the baby and protects it, and is the one who takes the final shot at the creature to protect her daughter. And finally, the movies develops the plot thoughtfully by giving a way to counter the creatures playing on the theme of noise, through another one of the characters, the daughter, who holds a handicap, which initially harms her, but which she learns to accept and use to her advantage. The second movie, however, felt like it lacked a relevant story. It didn't develop the plot, it didn't answer any questions about the initial disaster, and it didn't develop the family's relationship as the character's often found themselves seperated from eachother or just "surviving"...

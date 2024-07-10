@@ -9,7 +9,7 @@ export default function BlogPage({ content, data }) {
           <Link className='bg-gray-300 hover:bg-gray-400 px-4 rounded' href='/'>&larr;</Link>
           <h1>{data.title}</h1>
         </div>
-        <h2>{new Date(data.date).toLocaleDateString()}</h2>
+        <h2>Created - {new Date(data.date).toDateString()} | Last Updated - {new Date(data.update).toDateString()}</h2>
       </section>
       <div className="w-full px-4">
         <ReactMarkdown className="markdown w-full">{content}</ReactMarkdown>

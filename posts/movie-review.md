@@ -2,6 +2,7 @@
 title: How I write my movie reviews?
 subtitle: An exploration on how I write my movie reviews.
 date: 2024-06-30T11:00:00Z
+update: 2024-06-30
 tags: 
   - review
   - serie

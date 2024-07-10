@@ -1,13 +1,17 @@
 'use client';
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Navigation from "./navigation";
 import BlogIndex from "./blogindex";
 
 export default function BlogHome({ posts, tags }) {
   const [filter, setFilter] = useState("None");
+  const [filteredPosts, setFilteredPosts] = useState(posts);
 
-  const filteredPosts = filter === "None" ? posts : posts.filter(post => post.tags.includes(filter));
+  useEffect(() => {
+    if (filter === "None") {setFilteredPosts(posts);}
+    else {setFilteredPosts(posts.filter(post => post.tags.includes(filter)));}
+  }, [filter, posts]);
 
   function handleFilter(e) {
     const { value } = e.currentTarget;
@@ -18,6 +22,13 @@ export default function BlogHome({ posts, tags }) {
     return value === filter
       ? "font-bold border-2 bg-gray-700 hover:bg-gray-900 hover:border-2 text-white px-2 py-1 rounded"
       : "font-bold border-2 bg-gray-200 hover:bg-white hover:border-2 text-black px-2 py-1 rounded";
+  }
+
+  function search(e) {
+    const { value } = e.currentTarget;
+    const filtered = posts.filter(post => post.title.toLowerCase().includes(value.toLowerCase()));
+    setFilter("None");
+    setFilteredPosts(filtered);
   }
 
   return (
@@ -31,11 +42,17 @@ export default function BlogHome({ posts, tags }) {
         <img className="h-8 mr-2 bg-white rounded" src="/Filter.png" alt="Filter icon" />
         <h2 className="mr-4 text-2xl font-bold">Filter</h2>
         <div className="flex space-x-2">
-          <button onClick={handleFilter} key={0} value="None" className={getButtonClass("None")}>
+          <input
+            type="text"
+            placeholder="Search"
+            className="border-2 px-2 py-1 rounded text-black"
+            onChange={search}
+          />
+          <button onClick={handleFilter} value="None" className={getButtonClass("None")}>
             N / A
           </button>
           {tags.map((tag, index) => (
-            <button onClick={handleFilter} key={index + 1} value={tag} className={getButtonClass(tag)}>
+            <button onClick={handleFilter} key={index} value={tag} className={getButtonClass(tag)}>
               {tag}
             </button>
           ))}
