@@ -5,3 +5,7 @@
 .markdown > * {
   all: revert;
 }
+
+img {
+  @apply rounded-lg shadow-lg mx-auto;
+}

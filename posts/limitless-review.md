@@ -1,8 +1,8 @@
 ---
 title: Opinionated Review - Limitless
-subtitle: An opinionated review of Limitless.
-date: 2024-08-16T12:00:00Z
-update: 2024-08-16
+subtitle: An opinionated review of the movie Limitless.
+date: 2024-07-01T11:00:00Z
+update: 2024-01-04
 tags: 
   - review
   - movie
