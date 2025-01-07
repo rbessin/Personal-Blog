@@ -90,7 +90,7 @@ export default function BlogHome({ posts, tags }) {
         if (!response.ok) {throw new Error("Failed to create post");}
 
         handleModalClose();
-        router.push('/edit/' + newPostTitle.toLowerCase().replace(/\s/g, "-"));
+        router.push('/edit/' + newPostTitle.replace(/&/g, "").replace(/\s+/g, "-").toLowerCase());
       } catch (error) {
         new Response(`Error: ${error.message}`);
       }

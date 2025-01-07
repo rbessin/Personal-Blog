@@ -11,7 +11,7 @@ export async function POST(req) {
     }
 
     const postDirectory = path.join(process.cwd(), "posts");
-    const filename = `${title.replace(/\s+/g, "-").toLowerCase()}.md`;
+    const filename = `${title.replace(/&/g, "").replace(/\s+/g, "-").toLowerCase()}.md`;
 
     const metadata = `---
 title: ${title}
@@ -27,7 +27,7 @@ tags:
       fs.mkdirSync(postDirectory, { recursive: true });
     }
     fs.writeFileSync(path.join(postDirectory, filename), metadata);
-    
+    return new Response("Post created successfully", { status: 200 });
   } catch (error) {
     return new Response("Error creating post", { status: 500 });
   }
